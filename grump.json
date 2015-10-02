@@ -1,9 +1,9 @@
 {
-  "defaultCommand": "hello",
+  "defaultCommand": "vars",
   "commands": {
-    "hello": {
-      "scriptType": "bash",
-      "scriptPath": "hello.sh",
+    "vars": {
+      "scriptType": "node",
+      "scriptPath": "index.js",
       "vars": {
         "name": {
           "default": "Keith",
