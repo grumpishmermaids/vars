@@ -1,0 +1,19 @@
+{
+  "defaultCommand": "hello",
+  "commands": {
+    "hello": {
+      "scriptType": "bash",
+      "scriptPath": "hello.sh",
+      "vars": {
+        "name": {
+          "default": "Keith",
+          "persist": true
+        },
+        "phrase": {
+          "persist": false,
+          "default": "Hello there!"
+        }
+      }
+    }
+  }
+}
