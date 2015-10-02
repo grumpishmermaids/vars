@@ -12,10 +12,6 @@
         "phrase": {
           "persist": false,
           "default": "Hello there!"
-        },
-        "password": {
-          "persist": false,
-          "hidden": true
         }
       }
     }
