@@ -2,7 +2,7 @@
   "defaultCommand": "vars",
   "commands": {
     "vars": {
-      "scriptType": "node",
+      "run": "node",
       "scriptPath": "index.js",
       "vars": {
         "name": {
